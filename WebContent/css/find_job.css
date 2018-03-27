@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.choosebox{
+	width: 80%;
+	line-height: 60px;
+	margin:0 auto;
+	//border:solid black;
+}
+.button{
+	float:right;
+	position: relative;
+	left:55px;
+}
+.findbox{
+	width:95%;
+	margin:0 auto;
+	text-align: center;
+	line-height:30px;
+}
+.findboxindex{
+	color:black;
+	float:right;
+}
+.findboxindex a{
+	float:right;
+	color:#ffffff;
+}
+.findboxtitle{
+	color:#000000;
+	font-size:20px;
+	font-family:"华文行楷";
+}
+.lastpage,.nextpage{
+	text-decoration: underline;
+}
+.jobtitle{
+}
+.jobtitle a{
+	font-weight: bold;
+	font-family:"楷体";
+	font-size:20px;
+	color:#c0c0c0;
+}
+.jobtitle a:hover{
+	text-decoration: underline;
+	color: #3359ac;
+}
+.findbox .findbox tr td,.findboxtitle{
+	border:0px;
+	border-bottom: 1px dotted #0c0c0c;
+}

@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+.modpsd{
+	position: relative;
+	top:100px;
+}
+/*
+.modpsd_title{
+	text-align: center;
+	line-height:80px;
+	color:#000000;
+	font-size: 25px;
+	background-image: none;
+	font-family: "黑体";
+}*/
+.modpsd_table{
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	left:50px;
+	top:50%;
+	vertical-align:bottom;
+	font-size:15px;
+	margin:0 auto;/*整个容器相对于外面容器居中*/
+	height: 25px;
+	line-height:25px; 
+	color:#ffffff;
+}
+.psditem{
+	text-align:right;
+}
+.psdmsg{
+	text-align:left;
+}

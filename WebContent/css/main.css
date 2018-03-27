@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+*{
+	font-size:12px;
+}
+
+body{
+	color:#ffffff;
+	//background:#0a4e85;
+	background: linear-gradient(#306275, #B08351);
+	/*background: linear-gradient(#0a4e85, #fff);*/
+	min-height:650px;
+	//background: url("../img/background.jpg")
+}
+
+
+.main_title{
+	background: url("../img/head_con.png");
+	background-repeat: no-repeat;
+	position: relative;
+	width:100%;
+	top:-50px;
+}
+.main_menu{
+//	border:1px solid black;
+	width:80%;
+	text-align: center;/*文本水平居中*/
+	vertical-align:bottom;/*文字低端显示*/
+	font-size:15px;
+	margin:0 auto;
+	position: relative;
+	top:-15px;
+	line-height:25px;  
+}
+.main_menu_item{
+}
+.menu_option{
+	font-weight:bold;
+	color:#ffffff;
+	font-size: 15px;
+}
+.main_body{
+	border:5px solid #c0c0c0;
+	width: 80%;
+	margin:0 auto;
+	position: relative;
+	top:-5px;
+	min-height: 800px;
+	/*background: #aaaaaa;正文的背景*/
+}
+a{
+	text-decoration:  none;
+	color: #000000;
+	cursor:  pointer;
+}
+a:hover{
+	color: blue;
+}
+.check_text{
+	width: 100%;
+	color: white;
+	height: 50px;
+	position: relative;
+	top:-50px;
+	text-align:right;
+}
+.check_text a{
+	color: white;
+}
+#h5 h5{
+	font-size: 30px;
+}
+#h5{
+	font-family:"华文行楷";
+	text-align:center;
+	position: relative;
+	top:80px;
+	font-weight:bold; 
+
+}
+.month{
+	position: relative;
+	left: 47%;
+	top:120px;
+	font-size: 20px;
+}
+.day{
+	font-size: 30px;
+	width: 200px;
+	margin: 0 auto;
+	height: 20px;
+	position: relative;
+	top:50px;
+}
+.day td{
+	border: 1px solid #c8d8fd;
+}

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.main_body{
+	text-align: center;
+}
+.adm_manage{
+	margin: 0px auto;
+	/*border:black solid;*/
+	margin-top:50px; 
+	line-height: 50px;
+}
